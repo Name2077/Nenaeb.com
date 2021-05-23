@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+    <title>Ананимус чат </title>
+  </head>
+  <body>
+
+
+
+
+<textarea type="text" name="" value="" accesskey="x" rows="10" cols="20" onclick="myFunction()" placeholder="Отпраить"></textarea>  <button type="button" name="button">+</button>
+
+<style media="screen">
+  body {
+    font-family: 'Montserrat';
+ font-size: 30px;
+    background-color: black;
+  }
+  textarea {
+      margin-top:  768px;
+      margin-left:  15px;
+      height: 30px;
+      width: 200px;
+      color: #fff;
+      background: black;
+      padding-left: 15px;
+      border-radius: 19px/20px;
+      border: none;
+      font-size: 18px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+      outline: none;
+      border: none;
+      border: solid 1px #f2f2f2;
+  .custom-file-upload {
+      border: 1px solid #ccc;
+      display: inline-block;
+      padding: 6px 12px;
+      cursor: pointer;
+  }
+  }
+  }
+  input:focus {
+      border: 2px solid #6coff;
+      transform: translateX(5px);
+      width: 385;
+  }
+   button {
+margin-left: 0px;
+  margin-top: 0px;
+  cursor: pointer;;
+  padding: 10px 30px;
+  height: 30px;
+
+  color: #fff;
+  background: black;
+  padding-left: 25px;
+  border-radius: 20px/20px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0,82);
+}
+</style>
+<script type="text/javascript">
+document.querySelector('65').addEventListener('onkeydown', function() {
+playAudio ();
+});
+if (e.keyCode == 65) {
+  if(document.getElementById('audio').paused){
+  document.getElementById('audio').play();
+ }
+ else{
+  document.getElementById('audio').pause;
+}
+});
+</script>
+<audio id="audio" controls style="display:none">
+  <source src="http://butlerccwebdev.net/support/html5-video/media/soundfile.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+</audio>
+  </body>
+</html>
